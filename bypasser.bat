@@ -9,6 +9,7 @@ IF %ERRORLEVEL% NEQ 0 (
     pause > nul
     exit
 )
+
 sc config "svcMayaDSes" start=disabled
 sc config "SvcMayaEC" start=disabled
 sc config "sService Agent Launcher" start=disabled
