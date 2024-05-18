@@ -12,8 +12,6 @@ IF %ERRORLEVEL% NEQ 0 (
 
 sc config "svcMayaDSes" start=disabled
 sc config "SvcMayaEC" start=disabled
-sc config "sService Agent Launcher" start=disabled
-sc config "sServiceLoopBack" start=disabled
 if %ERRORLEVEL% neq 0 (
     echo 오류가 발생했습니다.
     echo 제작자에게 문의하세요.
